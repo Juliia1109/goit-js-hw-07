@@ -1,6 +1,6 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
-console.log(galleryItems);
+
 const paletteContainer = document.querySelector('.gallery');
 const cardsMarkup = createGalleryItemsCardMarkup(galleryItems);
 paletteContainer.insertAdjacentHTML('afterbegin', cardsMarkup);
